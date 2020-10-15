@@ -1,0 +1,43 @@
+#header {
+    width: 100%;
+    text-align: center;
+}
+
+#links a {
+    color: grey;
+    text-decoration: none;
+}
+
+body {
+    color: #333333;
+    font-family: arial;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    margin-top: 75px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
