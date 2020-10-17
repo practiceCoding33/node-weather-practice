@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (e) => {
             messageOne.textContent = data.error;
         } else {
             messageOne.textContent = data.location;
-            messageTwo.textContent = `It is ${data.forecast.temperature} degrees out and ${data.forecast.description}`;
+            messageTwo.textContent = `It is ${data.forecast.temperature} degrees out and ${data.forecast.description}. The humidity is ${data.forecast.humidity}%.`;
         }
     });
     weatherForm.reset();
